@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
 <header><!--Début du header pour la partie Layout(entete) -->
       <nav class="color navbar navbar-expand-lg bg-danger rounded custom-rounded "><!--Début de la NavBar Bootstrap-->
         <div class="container-fluid">
@@ -58,9 +51,4 @@
           </div>
         </div>
       </nav><!--Fin de la NavBar-->
-    </header><!--Fin du header pour la partie Layout(entete) -->
-    
-<body>
  <script type="module" src="main.js"></script>   
-</body>
-</html>
