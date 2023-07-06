@@ -6,3 +6,4 @@ tata,tete,1995-05-12,tatatete@gmail.com,ghj45,//
 tata,tete,1995-05-12,tatatete@gmail.com,ghj45,//
 bobo,baba,1995-08-15,zaza@zaza.com,aze123,//
 bobo,baba,1995-08-15,zaza@zaza.com,aze123,//
+Pikachu,Pikapi,1998-03-01,pikachu@pokemon.com,pikapi80,Pikapi

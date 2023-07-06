@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($utilisateurTrouve) {
             echo "Connexion réussie !";
-            header("Location:index.html");
+            header("Location: index.html");
             // Effectuer les actions nécessaires après la connexion réussie
         } else {
             echo "Identifiants incorrects. Veuillez réessayer.";
