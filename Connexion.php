@@ -22,9 +22,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         fclose($fichier);
 
         if ($utilisateurTrouve) {
-            echo "Connexion réussie !";
-            header("Location: index.html");
-            // Effectuer les actions nécessaires après la connexion réussie
+            header('Location: index.html');
+            exit();
         } else {
             echo "Identifiants incorrects. Veuillez réessayer.";
         }
@@ -41,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <h1>Connexion</h1>
-    <form method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
+    <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
         <label for="email">Email :</label>
         <input type="email" name="email" required><br>
 
