@@ -9,57 +9,7 @@
 <lol></lol>
 <body>
   <header><!--Début du header pour la partie Layout(entete) -->
-    <nav class="color navbar navbar-expand-lg bg-danger rounded custom-rounded "><!--Début de la NavBar Bootstrap-->
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="logo" src="/images_the_disctrict/the_district_brand/logo.png"
-            alt="logo" title="logo"></a>
-        <ul class="col-3 nav-link couleurtitre fs-1"><u><b>The District</b></u></ul>
-        <button class="navbar-toggler col-btn" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon text-primary"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link custom-heading active fs-1" aria-current="page"
-                href="index.html">Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link custom-heading active fs-1" href="/Categorie.html">Catégorie</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link custom-heading active fs-1" href="/Contact.html">Contact</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle custom-heading active fs-1" href="#" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">Plats</a>
-              <ul class="dropdown-menu custom-heading" aria-labelledby="menudropdown">
-                <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.html">Choix</a></li>
-                <li><a class="dropdown-item custom-heading active fs-2" href="#">Asiatiques</a></li>
-                <li><a class="dropdown-item custom-heading active fs-2" href="#">Burgers</a></li>
-                <li><a class="dropdown-item custom-heading active fs-2" href="#">Pâtes</a></li>
-                <li><a class="dropdown-item custom-heading active fs-2" href="#">Pizzas</a></li>
-                <li><a class="dropdown-item custom-heading active fs-2" href="#">Salades</a></li>
-                <li><a class="dropdown-item custom-heading active fs-2" href="#">Sandwichs</a></li>
-                <li><a class="dropdown-item custom-heading active fs-2" href="#">Veggies</a></li>
-                <li><a class="dropdown-item custom-heading active fs-2" href="#">Wraps</a></li>
-                <li><a class="dropdown-item custom-heading active fs-2" href="#">Kebabs</a></li>
-                <li><a class="dropdown-item custom-heading active fs-2" href="#">Libanais</a></li>
-                <li><a class="dropdown-item custom-heading active fs-2" href="#">Paininis</a></li>
-                <li><a class="dropdown-item custom-heading active fs-2" href="#">Tacos</a></li>
-              </ul>
-            </li>
-          </ul>
-          <ul class="ml-auto">
-            <form class="d-flex justify-content-right align-items-center " role="search">
-              <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
-              <button class="btn btn-outline-success color-search" type="submit">Rechercher</button>
-            </form>
-          </ul>
-        </div>
-      </div>
-    </nav><!--Fin de la NavBar-->
+    <?php include('header.php');?>
   </header><!--Fin du header pour la partie Layout(entete) -->
   <br>
   <div class="d-flex justify-content-center couleur-navigation">
@@ -172,39 +122,7 @@
   </div>
 </body>
 <foot>
-  <nav>
-    <div class="d-flex justify-content-end align-items-center">
-      <a id="arrow-up" class="me-5">
-        <i class="fa-solid fa-arrow-up fa-beat fa-2xl"
-          style="color: #ff7800;"></i><!--Flêche à droite permettant de remonter en haut de la page-->
-      </a>
-    </div>
-  </nav>
-  <!--Partie Script pour la flêche-->
-  <script>
-    document.getElementById('arrow-up').addEventListener('click', function () {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    });
-  </script><!--fin de la partie Script pour la flêche-->
-  <div class="couleur-navigation d-flex justify-content-center align-items-center flex-wrap">
-    <!--Début de la partie Réseaux Sociaux-->
-    <a class="taillelogors my-5 mx-5"><i class="fa-brands fa-instagram fa-bounce"
-        style="color: #ff7800;font-size:100px;"></i></a>
-    <a class="taillelogors my-5 mx-5"><i class="fa-brands fa-pinterest fa-bounce"
-        style="color: #ff7800;font-size:100px;"></i></a>
-    <a class="taillelogors my-5 mx-5"><i class="fa-brands fa-twitter fa-bounce"
-        style="color: #ff7800;font-size:100px;"></i></a>
-    <a class="taillelogors my-5 mx-5"><i class="fa-brands fa-linkedin fa-bounce"
-        style="color: #ff7800;font-size:100px;"></i></a>
-    <a class="taillelogors my-5 mx-5"><i class="fa-brands fa-facebook fa-bounce"
-        style="color: #ff7800;font-size:100px"></i></a>
-    <a class="taillelogors my-5 mx-5"><i class="fa-brands fa-youtube fa-bounce"
-        style="color: #ff7800;font-size:100px"></i></a>
-  </div><!--Fin de la partie Réseaux Sociaux-->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<?php include 'footer.php';?>
 </foot>
 
 <script type="module" src="main.js"></script>
