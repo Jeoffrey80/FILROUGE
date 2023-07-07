@@ -1,8 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 
-import '@fortawesome/fontawesome-free/css/all.css';
-import '@fortawesome/fontawesome-free/js/all.js';
+// import '@fortawesome/fontawesome-free/css/all.css';
+import '@fortawesome/fontawesome-free/js/fontawesome.js';
+import '@fortawesome/fontawesome-free/js/brands.js';
 
 
 import './style.css';

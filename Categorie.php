@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The District: -Catégorie</title>
+  <link rel="stylesheet" href="dist/assets/index.css">
 </head>
 <lol></lol>
 <body>
@@ -125,6 +126,6 @@
 <?php include 'footer.php';?>
 </foot>
 
-<script type="module" src="main.js"></script>
+<script src="dist/assets/index.js"></script>
 
 </html>

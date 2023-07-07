@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The District: -Accueil</title>
-    
+    <link rel="stylesheet" href="dist/assets/index.css">
 </head>
 
 <body>
   <div class="parallax-bg">
       <header><!--Début du header pour la partie Layout(entete) -->
-        <?php include('header.php');?>
+        <?php include 'header.php';?>
     </header><!--Fin du header pour la partie Layout(entete) -->
     <main class="mt-auto">
       <br><br>
@@ -69,7 +69,7 @@
   <footer class="sticky-footer"><!-- Début du pied de page avec les réseaux sociaux -->
     <?php include 'footer.php';?>
   </footer>
-  <script type="module" src="main.js"></script>
+  <script type="module" src="dist/assets/index.js"></script>
 </body>
 
 </html>

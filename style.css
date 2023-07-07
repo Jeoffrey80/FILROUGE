@@ -25,7 +25,7 @@ footer.sticky-footer {
   max-width: 100px !important;
   max-height: 100px !important;
   margin-right: 10px !important;
-}*/
+}
 
 .liplats img {
   max-width: 100px;
@@ -231,14 +231,16 @@ body {
 .parallax-bg {
   height: 100vh;
   background-attachment: fixed;
-  background-position: center;.sticky-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #fff; /* ajustez la couleur du fond du footer selon vos besoins */
-  }
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.sticky-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff; /* ajustez la couleur du fond du footer selon vos besoins */
 }
 
 .modification-btn {
