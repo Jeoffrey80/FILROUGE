@@ -637,7 +637,7 @@
       }
   
       function afficherPanier() {
-        window.location.href = "Commande.html";
+        window.location.href = "Commande.php";
       }
     </script>
     </body>

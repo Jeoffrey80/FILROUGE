@@ -30,7 +30,7 @@
             sessionStorage.removeItem("prixTotal");
 
             // Rediriger vers la page principale
-            window.location.href = "Plats.html";
+            window.location.href = "Plats.php";
         }
 
         document.addEventListener("DOMContentLoaded", function () {
