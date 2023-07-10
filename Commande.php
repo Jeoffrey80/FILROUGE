@@ -12,6 +12,12 @@
 </header><!--Fin du header pour la partie Layout(entete) -->
 
 <body>
+<style>
+  #panier-liste {
+    list-style-type: none;
+    padding-left: 0;
+  }
+</style>
     <div class="text-center" >
         <h1>Mon Panier</h1>
 
@@ -20,7 +26,6 @@
 
         <h2>Prix total :</h2>
         <p id="prix-total"></p>
-
         <button onclick="resetPanier()">Réinitialiser</button>
     </div>
     <script>

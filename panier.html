@@ -41,7 +41,6 @@
 
   <h2>Prix total :</h2>
   <p id="prix-total"></p>
-
   <button onclick="resetPanier()">Réinitialiser</button>
 
   <script>
@@ -72,10 +71,6 @@
       panier.forEach(function(produit) {
         var li = document.createElement("li");
 
-        var img = document.createElement("img");
-        img.src = produit.image;
-        img.alt = "Produit";
-        li.appendChild(img);
 
         var div = document.createElement("div");
 

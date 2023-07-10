@@ -231,11 +231,17 @@ body {
 .parallax-bg {
   height: 100vh;
   background-attachment: fixed;
-  background-position: center;
+  background-position: centerflex-wrap
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.fond-panier{
+  background-color: #970747 !important;
+  background: #970747 !important;
+  border-color: #970747 !important;
+  color: #970747 !important;
+  border-radius: 25px;
+}
 .sticky-footer {
   margin: 0;
   padding: 0;

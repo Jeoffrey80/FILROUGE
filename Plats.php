@@ -435,195 +435,161 @@
         </ul>
     </section>
     <hr>
-    <nav class="text-center">
-    <button class="colorbtnplat" onclick="afficherPanier()">Voir le Panier</button>
+    <nav class="fixed-bottom">
+  <div class=" font-panier text-center">
+    <button class="btn btn-primary" onclick="afficherPanier()">Voir le Panier</button>
+  </div>
 </nav>
+
     <script>
       function ajouterAuPanier(idProduit) {
         var produit = {
-          image: "",
           nom: "",
           description: "",
           prix: 0
         };
   
         if (idProduit === 1) {
-          produit.image = "/images_the_disctrict/food/Plats/asiat1.jpg";
           produit.nom = "Sushi";
           produit.description = "Sushi au saumon 2 pièces";
           produit.prix = 4.99;
         } else if (idProduit === 2) {
-          produit.image = "/images_the_disctrict/food/Plats/asiat2.jpeg";
           produit.nom = "Maki";
           produit.description = "Maki goût variés 6 pièces";
           produit.prix = 29.99;
         } else if (idProduit === 3) {
-          produit.image = "/images_the_disctrict/food/Plats/asiat3.jpg";
           produit.nom = "Yakitori";
           produit.description = "Brochette de boeufs avec fromage fondue à l'intérieur 3 pièces";
           produit.prix = 14.99;
         } else if (idProduit === 4) {
-          produit.image = "/images_the_district/food/Plats/burger1.jpeg";
           produit.nom = "Burger fromage";
           produit.description = "Burger supplément fromage";
           produit.prix = 9.90;
         }else if (idProduit === 5) {
-          produit.image = "/images_the_district/food/Plats/burger2.jpg";
           produit.nom = "Burger Poisson";
           produit.description = "Burger avec galette de poisson";
           produit.prix = 12.50;
         }else if (idProduit === 6) {
-          produit.image = "/images_the_district/food/Plats/burger3.jpeg";
           produit.nom = "Anguss Noire";
           produit.description = "Burger viande anguss avec pain noire";
           produit.prix = 24.99;
         } else if (idProduit === 7) {
-          produit.image = "/images_the_district/food/Plats/pates1.jpeg";
           produit.nom = "Pâtes Carbonara";
           produit.description = "Lardon fumé, crème fraîche, pâtes(tagliatelle), jaunes d'oeuf, oignon";
           produit.prix = 12.90;
         } else if (idProduit === 8) {
-          produit.image = "/images_the_district/food/Plats/pates2.jpeg";
           produit.nom = "Pâtes Bolognaise";
           produit.description = "Spaghettis, Viande de boeuf hachée, tomate pelée, oignon, ail, thym, laurier, huile d'olive ";
           produit.prix = 14.99;
         }else if (idProduit === 9) {
-          produit.image = "/images_the_district/food/Plats/pates3.jpeg";
           produit.nom = "Pâtes au Saumon";
           produit.description = "Pâtes type penne, zeste de citron, crème fraîche épaisse, saumon fumé haché, anette, parmesan rapé";
           produit.prix = 12.95;
         }else if (idProduit === 10) {
-          produit.image = "/images_the_district/food/Plats/pizza1";
           produit.nom = "4 Fromages";
           produit.description = "Pizza chèvre, bleu, conmté, mozzarella, base tomate";
           produit.prix = 16.50;
         } else if (idProduit === 11) {
-          produit.image = "/images_the_district/food/Plats/pizza2";
           produit.nom = "Bolognaise";
           produit.description = "base tomate, viande haché, gruyère rapé, oignon, huile d'olive, origan";
           produit.prix = 18.90;
         } else if (idProduit === 12) {
-          produit.image = "/images_the_district/food/Plats/pizza3";
           produit.nom = "Margherita";
           produit.description = "Parmesan reggianno, huile d'olive, mozzarella, feuille de basilic frais, base tomate";
           produit.prix = 14.50;
         }else if (idProduit === 13) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         }else if (idProduit === 14) {
-          produit.image = "/images_the_district/food/cheesburger.jpg";
           produit.nom = "Nom du produit 2";
           produit.description = "Description du produit 2";
           produit.prix = 24.99;
         } else if (idProduit === 15) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         } else if (idProduit === 16) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         }else if (idProduit === 17) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         }else if (idProduit === 18) {
-          produit.image = "/images_the_district/food/cheesburger.jpg";
           produit.nom = "Nom du produit 2";
           produit.description = "Description du produit 2";
           produit.prix = 24.99;
         } else if (idProduit === 19) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         } else if (idProduit === 20) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         }else if (idProduit === 21) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         }else if (idProduit === 22) {
-          produit.image = "/images_the_district/food/cheesburger.jpg";
           produit.nom = "Nom du produit 2";
           produit.description = "Description du produit 2";
           produit.prix = 24.99;
         } else if (idProduit === 23) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         } else if (idProduit === 24) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         }else if (idProduit === 25) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         }else if (idProduit === 26) {
-          produit.image = "/images_the_district/food/cheesburger.jpg";
           produit.nom = "Nom du produit 2";
           produit.description = "Description du produit 2";
           produit.prix = 24.99;
         } else if (idProduit === 27) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         } else if (idProduit === 28) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         }else if (idProduit === 29) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         }else if (idProduit === 30) {
-          produit.image = "/images_the_district/food/cheesburger.jpg";
           produit.nom = "Nom du produit 2";
           produit.description = "Description du produit 2";
           produit.prix = 24.99;
         } else if (idProduit === 31) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         } else if (idProduit === 32) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         }else if (idProduit === 33) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         }else if (idProduit === 34) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         } else if (idProduit === 35) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
         }else if (idProduit === 36) {
-          produit.image = "/images_the_district/food/Food-Name-3631.jpg";
           produit.nom = "Nom du produit 3";
           produit.description = "Description du produit 3";
           produit.prix = 14.99;
