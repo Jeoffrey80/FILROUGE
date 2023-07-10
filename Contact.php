@@ -106,6 +106,7 @@
     }
   </script><!--Fin de la fonction JS-->
   <!-- SB Forms JS -->
+  <br><br>
 </body>
 <foot>
   <?php include 'footer.php';?>

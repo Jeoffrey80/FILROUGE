@@ -65,11 +65,13 @@
             alt="..." style="width:250px;height:250px;"></a>nbsp;
       </div><!--Corps de la page avec le slogan ainsi que quelques images-->
   </div>
-  </main>
-  <footer class="sticky-footer"><!-- Début du pied de page avec les réseaux sociaux -->
-    <?php include 'footer.php';?>
-  </footer>
+  
+  <footer class="sticky-footer custom-footer"><!-- Début du pied de page avec les réseaux sociaux -->
+  <?php include 'footer.php';?>
+</footer>
+
   <script type="module" src="dist/assets/index.js"></script>
+</main>
 </body>
 
 </html>

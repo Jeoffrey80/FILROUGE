@@ -302,7 +302,7 @@
             </li>
         </ul>
     </section>
-    <hr>
+    <hr>imgcommande
     <section id="Kebab">
         <h2>Kebab</h2>
         <ul class="ulplats">
@@ -458,7 +458,7 @@
           produit.description = "Maki goût variés 6 pièces";
           produit.prix = 29.99;
         } else if (idProduit === 3) {
-          produit.image = "/images_the_disctrict/food/Plats/asiat1.jpg";
+          produit.image = "/images_the_disctrict/food/Plats/asiat3.jpg";
           produit.nom = "Yakitori";
           produit.description = "Brochette de boeufs avec fromage fondue à l'intérieur 3 pièces";
           produit.prix = 14.99;
@@ -640,6 +640,7 @@
         window.location.href = "Commande.php";
       }
     </script>
+    <br><br>
     </body>
 <foot>
     <?php include 'footer.php';?>

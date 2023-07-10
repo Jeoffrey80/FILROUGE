@@ -122,8 +122,10 @@
   </div>
   </div>
 </body>
+<br><br>
 <foot>
 <?php include 'footer.php';?>
+
 </foot>
 
 <script src="dist/assets/index.js"></script>

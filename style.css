@@ -22,7 +22,7 @@ footer.sticky-footer {
   padding: 10px; /* Ajouter un peu d'espace entre les éléments */
 }
 .imgcommande {
-  max-width: 100px !important;
+  max-width: 1000px !important;
   max-height: 100px !important;
   margin-right: 10px !important;
 }
@@ -237,10 +237,21 @@ body {
 }
 
 .sticky-footer {
+  margin: 0;
+  padding: 0;
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #fff; /* ajustez la couleur du fond du footer selon vos besoins */
+  background-color: #FEF4E8; /* ajustez la couleur du fond du footer selon vos besoins */
+}
+
+.custom-footer {
+/*  background-color: #FF0000;  Remplacez cette valeur par la couleur de votre choix */
+margin: 0;
+padding: 0;
+margin-top: 0;
+margin-bottom: 0;
+
 }
 
 .modification-btn {
