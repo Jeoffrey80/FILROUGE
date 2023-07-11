@@ -42,7 +42,7 @@
         <h2>Plats Asiatiques</h2>
         <ul class="ulplats">
             <li class="liplats" >
-                <img src="/images_the_disctrict/food/Plats/asiat1.jpg" class="imgcommande" alt="Image 1">
+                <img src="/images_the_disctrict/food/Plats/asiat1.jpg" class="imgcommande" alt="Image 1" style='width 150px; height: 150px;'>
                 <div>
                     <h3>Sushi</h3>
                     <p>Sushi au saumon 2 pièces</p>
@@ -51,7 +51,7 @@
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_disctrict/food/Plats/asiat2.jpeg" class="imgcommande" alt="Image 2">
+                <img src="/images_the_disctrict/food/Plats/asiat2.jpeg" class="imgcommande" alt="Image 2" style='width 150px; height: 150px;'>
                 <div>
                     <h3>Maki</h3>
                     <p>Maki 6 pièces</p>
@@ -60,7 +60,7 @@
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_disctrict/food/Plats/asiat3.jpeg" class="imgcommande" alt="Image 3">
+                <img src="/images_the_disctrict/food/Plats/asiat3.jpeg" class="imgcommande" alt="Image 3" style='width 150px; height: 150px;'>
                 <div>
                     <h3>Yakitori</h3>
                     <p>Brochette de boeufs avec fromage fondue à l'intérieur 3 pièces</p>
@@ -75,7 +75,7 @@
         <h2>Burger</h2>
         <ul class="ulplats">
             <li class="liplats">
-                <img src="/images_the_disctrict/food/Plats/burger1.jpeg" class="imgcommande" alt="Image 1">
+                <img src="/images_the_disctrict/food/Plats/burger1.jpeg" class="imgcommande" alt="Image 1" style='width 150px; height: 150px;'>
                 <div>
                     <h3>Burger Fromage</h3>
                     <p>Burger supplément fromage</p>
@@ -84,7 +84,7 @@
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_disctrict/food/Plats/burger2.jpg" class="imgcommande" alt="Image 2">
+                <img src="/images_the_disctrict/food/Plats/burger2.jpg" class="imgcommande" alt="Image 2" style='width 150px; height: 150px;'>
                 <div>
                     <h3>Buger Poisson</h3>
                     <p>Burger avec galette de poisson</p>
@@ -93,7 +93,7 @@
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_disctrict/food/Plats/burger3.jpeg" class="imgcommande" alt="Image 3">
+                <img src="/images_the_disctrict/food/Plats/burger3.jpeg" class="imgcommande" alt="Image 3" style='width 150px; height: 150px;'>
                 <div>
                     <h3>Anguss Noire</h3>
                     <p>Burger viande anguss avec pain noire</p>
@@ -108,7 +108,7 @@
         <h2>Pâtes</h2>
         <ul class="ulplats">
             <li class="liplats">
-                <img src="/images_the_disctrict/food/Plats/pates1.jpeg" class="imgcommande" alt="Image 1">
+                <img src="/images_the_disctrict/food/Plats/pates1.jpeg" class="imgcommande" alt="Image 1" style='width 150px; height: 150px;'>
                 <div>
                     <h3>Pâtes Carbonara</h3>
                     <p>Lardon fumé, crème fraîche, pâtes(tagliatelle), jaunes d'oeuf, oignon</p>
@@ -117,7 +117,7 @@
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_disctrict/food/Plats/pates2.jpeg" class="imgcommande" alt="Image 2">
+                <img src="/images_the_disctrict/food/Plats/pates2.jpeg" class="imgcommande" alt="Image 2" style='width 150px; height: 150px;'>
                 <div>
                     <h3>Pâtes Bolognaise</h3>
                     <p>Spaghettis, Viande de boeuf hachée, tomate pelée, oignon, ail, thym, laurier, huile d'olive
@@ -127,7 +127,7 @@
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_disctrict/food/Plats/pates3.jpeg" class="imgcommande" alt="Image 3">
+                <img src="/images_the_disctrict/food/Plats/pates3.jpeg" class="imgcommande" alt="Image 3" style='width 150px; height: 150px;'>
                 <div>
                     <h3>Pâtes au Saumon</h3>
                     <p>Pâtes type penne, zeste de citron, crème fraîche épaisse, saumon fumé haché, anette, parmesan rapé</p>
