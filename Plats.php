@@ -142,7 +142,7 @@
         <h2>Pizzas</h2>
         <ul class="ulplats">
             <li class="liplats">
-                <!--<img src="/images_the_disctrict/food/Plats/pizza1" class="imgcommande" alt="Image 1">-->
+                <img src="/images_the_disctrict/food/Plats/pizza1.jpg" class="imgcommande" alt="Image 1">
                 <div>
                     <h3>4 Fromages</h3>
                     <p>Pizza chèvre, bleu, conmté, mozzarella, base tomate</p>
@@ -151,7 +151,7 @@
                 </div>
             </li>
             <li class="liplats">
-                <!--<img src="/images_the_disctrict/food/Plats/pizza2" class="imgcommande" alt="Image 2">-->
+                <img src="/images_the_disctrict/food/Plats/pizza2.jpg" class="imgcommande" alt="Image 2">
                 <div>
                     <h3>Bolognaise</h3>
                     <p>base tomate, viande haché, gruyère rapé, oignon, huile d'olive, origan</p>
@@ -160,7 +160,7 @@
                 </div>
             </li>
             <li class="liplats">
-               <!-- <img src="/images_the_disctrict/food/Plats/pizza3" class="imgcommande" alt="Image 3">-->
+                <img src="/images_the_disctrict/food/Plats/pizza3.jpg" class="imgcommande" alt="Image 3">
                 <div>
                     <h3>Magherita</h3>
                     <p>Parmesan reggianno, huile d'olive, mozzarella, feuille de basilic frais, base tomate</p>
@@ -175,29 +175,29 @@
         <h2>Salades</h2>
         <ul class="ulplats">
             <li class="liplats">
-                <img src="/images_the_district/food/buffalo-chicken.webp" class="imgcommande" alt="Image 1">
+                <img src="/images_the_disctrict/food/Plats/salade1.jpeg" class="imgcommande" alt="Image 1">
                 <div>
-                    <h3>Nom du produit 1</h3>
-                    <p>Description du produit 1</p>
-                    <p>Prix : 19.99€</p>
+                    <h3>Salade Niçoice </h3>
+                    <p>Batavia, tomate, thon, anchois, poivrons vers, olive noire, oeufs..</p>
+                    <p>Prix : 4.90€</p>
                     <button onclick="ajouterAuPanier(13)">Ajouter</button>
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_district/food/cheesburger.jpg" class="imgcommande" alt="Image 2">
+                <img src="/images_the_disctrict/food/Plats/salade2.jpg" class="imgcommande" alt="Image 2">
                 <div>
-                    <h3>Nom du produit 2</h3>
-                    <p>Description du produit 2</p>
-                    <p>Prix : 24.99€</p>
+                    <h3>Salade Mexicaine de quinoa à l'avocat</h3>
+                    <p>Quinoa, avocats mûrs, maïs, haricots noirs, oignon rouge, botte de coriandre, citron vert, huile d'olive, sel, poivre</p>
+                    <p>Prix : 6.99€</p>
                     <button onclick="ajouterAuPanier(14)">Ajouter</button>
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_district/food/Food-Name-3631.jpg" class="imgcommande" alt="Image 3">
+                <img src="/images_the_disctrict/food/Plats/salade3.webp" class="imgcommande" alt="Image 3">
                 <div>
-                    <h3>Nom du produit 3</h3>
-                    <p>Description du produit 3</p>
-                    <p>Prix : 14.99€</p>
+                    <h3>Salade healthy</h3>
+                    <p>Tomate/Mozzarella avec une touche d'huile d'olive</p>
+                    <p>Prix : 3.50€</p>
                     <button onclick="ajouterAuPanier(15)">Ajouter</button>
                 </div>
             </li>
@@ -208,29 +208,29 @@
         <h2>Sandwich</h2>
         <ul class="ulplats">
             <li class="liplats">
-                <img src="/images_the_district/food/buffalo-chicken.webp" class="imgcommande" alt="Image 1">
+                <img src="/images_the_disctrict/food/Plats/sandwich1.png" class="imgcommande" alt="Image 1">
                 <div>
-                    <h3>Nom du produit 1</h3>
-                    <p>Description du produit 1</p>
-                    <p>Prix : 19.99€</p>
+                    <h3>Thon Surimi</h3>
+                    <p>Thon, Surimi, crudité (salade/tomate)</p>
+                    <p>Prix : 3.50€</p>
                     <button onclick="ajouterAuPanier(16)">Ajouter</button>
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_district/food/cheesburger.jpg" class="imgcommande" alt="Image 2">
+                <img src="/images_the_disctrict/food/Plats/sandwich2.jpg" class="imgcommande" alt="Image 2">
                 <div>
-                    <h3>Nom du produit 2</h3>
-                    <p>Description du produit 2</p>
-                    <p>Prix : 24.99€</p>
+                    <h3>Rosette</h3>
+                    <p>Beurre, rosette, cornichon</p>
+                    <p>Prix : 3.50€</p>
                     <button onclick="ajouterAuPanier(17)">Ajouter</button>
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_district/food/Food-Name-3631.jpg" class="imgcommande" alt="Image 3">
+                <img src="/images_the_disctrict/food/Plats/sandwich3.jpeg" class="imgcommande" alt="Image 3">
                 <div>
-                    <h3>Nom du produit 3</h3>
-                    <p>Description du produit 3</p>
-                    <p>Prix : 14.99€</p>
+                    <h3>Poulet Crudité</h3>
+                    <p>Poulet crudité (salade/tomate)</p>
+                    <p>Prix : 3.50€</p>
                     <button onclick="ajouterAuPanier(18)">Ajouter</button>
                 </div>
             </li>
@@ -241,29 +241,29 @@
         <h2>Veggies</h2>
         <ul class="ulplats">
             <li class="liplats">
-                <img src="/images_the_district/food/buffalo-chicken.webp" class="imgcommande" alt="Image 1">
+                <img src="/images_the_disctrict/food/Plats/veggie1.jpeg" class="imgcommande" alt="Image 1">
                 <div>
-                    <h3>Nom du produit 1</h3>
-                    <p>Description du produit 1</p>
-                    <p>Prix : 19.99€</p>
+                    <h3>Burger Vegan</h3>
+                    <p>Burger avec galette de pomme de terre à la place de la viande, salade, tomate, oignon, cornichon, sauce secrète.(Accompagné de ses frites)</p>
+                    <p>Prix : 8.50€</p>
                     <button onclick="ajouterAuPanier(19)">Ajouter</button>
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_district/food/cheesburger.jpg" class="imgcommande" alt="Image 2">
+                <img src="/images_the_disctrict/food/Plats/veggie2.jpg" class="imgcommande" alt="Image 2">
                 <div>
-                    <h3>Nom du produit 2</h3>
-                    <p>Description du produit 2</p>
-                    <p>Prix : 24.99€</p>
+                    <h3>Hot Dog Veggan</h3>
+                    <p>Hot dog avec une saucisse de légume</p>
+                    <p>Prix : 7.50€</p>
                     <button onclick="ajouterAuPanier(20)">Ajouter</button>
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_district/food/Food-Name-3631.jpg" class="imgcommande" alt="Image 3">
+                <img src="/images_the_disctrict/food/Plats/veggie3.jpg" class="imgcommande" alt="Image 3">
                 <div>
-                    <h3>Nom du produit 3</h3>
-                    <p>Description du produit 3</p>
-                    <p>Prix : 14.99€</p>
+                    <h3> Poke bowl au saumon mariné </h3>
+                    <p>Avocat, fève, citron vert, saumon cru, sésame doré, sauce soja, miel, riz.</p>
+                    <p>Prix : 12.80€</p>
                     <button onclick="ajouterAuPanier(21)">Ajouter</button>
                 </div>
             </li>
@@ -274,62 +274,62 @@
         <h2>Wraps</h2>
         <ul class="ulplats">
             <li class="liplats">
-                <img src="/images_the_district/food/buffalo-chicken.webp" class="imgcommande" alt="Image 1">
+                <img src="/images_the_disctrict/food/Plats/wrap1.jpeg" class="imgcommande" alt="Image 1">
                 <div>
-                    <h3>Nom du produit 1</h3>
-                    <p>Description du produit 1</p>
-                    <p>Prix : 19.99€</p>
+                    <h3>Wraps aux pois chiches rôtis et à la feta</h3>
+                    <p>pois chiche, oignon rouge, huile d'olice, crème de sucre, feta.</p>
+                    <p>Prix : 4.20€</p>
                     <button onclick="ajouterAuPanier(22)">Ajouter</button>
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_district/food/cheesburger.jpg" class="imgcommande" alt="Image 2">
+                <img src="/images_the_disctrict/food/Plats/wrap2.jpeg" class="imgcommande" alt="Image 2">
                 <div>
-                    <h3>Nom du produit 2</h3>
-                    <p>Description du produit 2</p>
-                    <p>Prix : 24.99€</p>
+                    <h3>Wraps au crabe</h3>
+                    <p>tortilla, chaire de crabe, feuille de laitue, crème fraiche, mayonnaise.</p>
+                    <p>Prix : 5.50€</p>
                     <button onclick="ajouterAuPanier(23)">Ajouter</button>
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_district/food/Food-Name-3631.jpg" class="imgcommande" alt="Image 3">
+                <img src="/images_the_disctrict/food/Plats/wrap3.jpeg" class="imgcommande" alt="Image 3">
                 <div>
-                    <h3>Nom du produit 3</h3>
-                    <p>Description du produit 3</p>
-                    <p>Prix : 14.99€</p>
+                    <h3>Wraps au poulet</h3>
+                    <p>tortilla de blé, blanc de poulet, feuille de laitue, tomate, moutarde.</p>
+                    <p>Prix : 4.80€</p>
                     <button onclick="ajouterAuPanier(24)">Ajouter</button>
                 </div>
             </li>
         </ul>
     </section>
-    <hr>imgcommande
+    <hr>
     <section id="Kebab">
         <h2>Kebab</h2>
         <ul class="ulplats">
             <li class="liplats">
-                <img src="/images_the_district/food/buffalo-chicken.webp" class="imgcommande" alt="Image 1">
+                <img src="/images_the_disctrict/food/Plats/kebab1.png" class="imgcommande" alt="Image 1">
                 <div>
-                    <h3>Nom du produit 1</h3>
-                    <p>Description du produit 1</p>
-                    <p>Prix : 19.99€</p>
+                    <h3>Kebab assiette 3 viandes</h3>
+                    <p>Assiette kebab 3 viandes avec frites/crudités.</p>
+                    <p>Prix : 7.50€</p>
                     <button onclick="ajouterAuPanier(25)">Ajouter</button>
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_district/food/cheesburger.jpg" class="imgcommande" alt="Image 2">
+                <img src="/images_the_disctrict/food/Plats/kebab2.jpeg" class="imgcommande" alt="Image 2">
                 <div>
-                    <h3>Nom du produit 2</h3>
-                    <p>Description du produit 2</p>
-                    <p>Prix : 24.99€</p>
+                    <h3>Kebab classique</h3>
+                    <p>Kebab classique, crudité, sauce avec ses frites.</p>
+                    <p>Prix : 6.50€</p>
                     <button onclick="ajouterAuPanier(26)">Ajouter</button>
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_district/food/Food-Name-3631.jpg" class="imgcommande" alt="Image 3">
+                <img src="/images_the_disctrict/food/Plats/kebab3.jpeg" class="imgcommande" alt="Image 3">
                 <div>
-                    <h3>Nom du produit 3</h3>
-                    <p>Description du produit 3</p>
-                    <p>Prix : 14.99€</p>
+                    <h3>Kebab Royal</h3>
+                    <p>Kebab classique, plus grand avec galette de pomme de terre et supplément viande/fromages.</p>
+                    <p>Prix : 8.00€</p>
                     <button onclick="ajouterAuPanier(27)">Ajouter</button>
                 </div>
             </li>
@@ -340,29 +340,29 @@
         <h2>Libanais</h2>
         <ul class="ulplats">
             <li class="liplats">
-                <img src="/images_the_district/food/buffalo-chicken.webp" class="imgcommande" alt="Image 1">
+                <img src="/images_the_disctrict/food/Plats/libanais1.jpg" class="imgcommande" alt="Image 1">
                 <div>
-                    <h3>Nom du produit 1</h3>
-                    <p>Description du produit 1</p>
-                    <p>Prix : 19.99€</p>
+                    <h3>Libanais classique</h3>
+                    <p>Libanais classique crudité</p>
+                    <p>Prix : 3.90€</p>
                     <button onclick="ajouterAuPanier(28)">Ajouter</button>
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_district/food/cheesburger.jpg" class="imgcommande" alt="Image 2">
+                <img src="/images_the_disctrict/food/Plats/libanais2.jpeg" class="imgcommande" alt="Image 2">
                 <div>
-                    <h3>Nom du produit 2</h3>
-                    <p>Description du produit 2</p>
-                    <p>Prix : 24.99€</p>
+                    <h3>Libanais royal</h3>
+                    <p>Libanais avec supplément fromage/lamelle de kebab + galette de pomme de terre</p>
+                    <p>Prix : 5.50€</p>
                     <button onclick="ajouterAuPanier(29)">Ajouter</button>
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_district/food/Food-Name-3631.jpg" class="imgcommande" alt="Image 3">
+                <img src="/images_the_disctrict/food/Plats/libanais3.jpeg" class="imgcommande" alt="Image 3">
                 <div>
-                    <h3>Nom du produit 3</h3>
-                    <p>Description du produit 3</p>
-                    <p>Prix : 14.99€</p>
+                    <h3>Libanais vegan</h3>
+                    <p>Libanais sans viande avec galette de légume et de pomme de terre, suplément fromage et crudité</p>
+                    <p>Prix : 4.50€</p>
                     <button onclick="ajouterAuPanier(30)">Ajouter</button>
                 </div>
             </li>
@@ -373,29 +373,29 @@
         <h2>Panini</h2>
         <ul class="ulplats">
             <li class="liplats">
-                <img src="/images_the_district/food/buffalo-chicken.webp" class="imgcommande" alt="Image 1">
+                <img src="/images_the_disctrict/food/Plats/panini1.jpeg" class="imgcommande" alt="Image 1">
                 <div>
-                    <h3>Nom du produit 1</h3>
-                    <p>Description du produit 1</p>
-                    <p>Prix : 19.99€</p>
+                    <h3>Panini Nutella</h3>
+                    <p>Panini au Nutella.</p>
+                    <p>Prix : 3.20€</p>
                     <button onclick="ajouterAuPanier(31)">Ajouter</button>
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_district/food/cheesburger.jpg" class="imgcommande" alt="Image 2">
+                <img src="/images_the_disctrict/food/Plats/panini2.jpeg" class="imgcommande" alt="Image 2">
                 <div>
-                    <h3>Nom du produit 2</h3>
-                    <p>Description du produit 2</p>
-                    <p>Prix : 24.99€</p>
+                    <h3>Panini 3 fromages</h3>
+                    <p>Panini chèvre, bleu, ementale.</p>
+                    <p>Prix : 4.50€</p>
                     <button onclick="ajouterAuPanier(32)">Ajouter</button>
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_district/food/Food-Name-3631.jpg" class="imgcommande" alt="Image 3">
+                <img src="/images_the_disctrict/food/Plats/panini3.jpeg" class="imgcommande" alt="Image 3">
                 <div>
-                    <h3>Nom du produit 3</h3>
-                    <p>Description du produit 3</p>
-                    <p>Prix : 14.99€</p>
+                    <h3>Panini viande hachée</h3>
+                    <p>Panini avec viande hachée fromage, crudité.</p>
+                    <p>Prix : 7.00€</p>
                     <button onclick="ajouterAuPanier(33)">Ajouter</button>
                 </div>
             </li>
@@ -406,29 +406,29 @@
         <h2>Tacos</h2>
         <ul class="ulplats">
             <li class="liplats">
-                <img src="/images_the_district/food/buffalo-chicken.webp" class="imgcommande" alt="Image 1">
+                <img src="/images_the_disctrict/food/Plats/tacos1.jpeg" class="imgcommande" alt="Image 1">
                 <div>
-                    <h3>Nom du produit 1</h3>
-                    <p>Description du produit 1</p>
-                    <p>Prix : 19.99€</p>
+                    <h3>Tacos au poulet curry</h3>
+                    <p>Tortilla, Escalope de Poulet, Crème liquide, Fromage rapé, oignon, frites.</p>
+                    <p>Prix : 6.50€</p>
                     <button onclick="ajouterAuPanier(34)">Ajouter</button>
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_district/food/cheesburger.jpg" class="imgcommande" alt="Image 2">
+                <img src="/images_the_disctrict/food/Plats/tacos2.jpeg" class="imgcommande" alt="Image 2">
                 <div>
-                    <h3>Nom du produit 2</h3>
-                    <p>Description du produit 2</p>
-                    <p>Prix : 24.99€</p>
+                    <h3>Recette de tacos au bœuf haché </h3>
+                    <p>Tacos avec boeuf haché frite supplément fromage, crudité.</p>
+                    <p>Prix : 6.50€</p>
                     <button onclick="ajouterAuPanier(35)">Ajouter</button>
                 </div>
             </li>
             <li class="liplats">
-                <img src="/images_the_district/food/Food-Name-3631.jpg" class="imgcommande" alt="Image 3">
+                <img src="/images_the_disctrict/food/Plats/tacos3.jpeg" class="imgcommande" alt="Image 3">
                 <div>
-                    <h3>Nom du produit 3</h3>
-                    <p>Description du produit 3</p>
-                    <p>Prix : 14.99€</p>
+                    <h3>Menu Tacos 3 Viandes</h3>
+                    <p>Tacos 3 viandes: poulet/boeuf/mouton, frites, crudité.</p>
+                    <p>Prix : 8.50€</p>
                     <button onclick="ajouterAuPanier(36)">Ajouter</button>
                 </div>
             </li>
@@ -498,101 +498,101 @@
           produit.description = "Parmesan reggianno, huile d'olive, mozzarella, feuille de basilic frais, base tomate";
           produit.prix = 14.50;
         }else if (idProduit === 13) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Salade Niçoise";
+          produit.description = "Batavia, tomate, thon, anchois, poivrons vers, olive noire, oeufs..";
+          produit.prix = 4.90;
         }else if (idProduit === 14) {
-          produit.nom = "Nom du produit 2";
-          produit.description = "Description du produit 2";
-          produit.prix = 24.99;
+          produit.nom = "Salade Mexicaine de quinoa à l'avocat";
+          produit.description = "Quinoa, avocats mûrs, maïs, haricots noirs, oignon rouge, botte de coriandre, citron vert, huile d'olive, sel, poivre";
+          produit.prix = 6.99;
         } else if (idProduit === 15) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Salade healthy";
+          produit.description = "Tomate/Mozzarella avec une touche d'huile d'olive";
+          produit.prix = 3.50;
         } else if (idProduit === 16) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Thon Surimi";
+          produit.description = "Thon, Surimi, crudité (salade/tomate)";
+          produit.prix = 3.50;
         }else if (idProduit === 17) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Rosette";
+          produit.description = "Beurre, rosette, cornichon";
+          produit.prix = 3.50;
         }else if (idProduit === 18) {
-          produit.nom = "Nom du produit 2";
-          produit.description = "Description du produit 2";
-          produit.prix = 24.99;
+          produit.nom = "Poulet Crudité";
+          produit.description = "Poulet crudité (salade/tomate)";
+          produit.prix = 3.50;
         } else if (idProduit === 19) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Burger Vegan";
+          produit.description = "Burger avec galette de pomme de terre à la place de la viande, salade, tomate, oignon, cornichon, sauce secrète.(Accompagné de ses frites)";
+          produit.prix = 8.50;
         } else if (idProduit === 20) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Hot Dog Vegan";
+          produit.description = "Hot dog avec une saucisse de légume";
+          produit.prix = 7.50;
         }else if (idProduit === 21) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Poke bowl au saumon mariné";
+          produit.description = "Avocat, fève, citron vert, saumon cru, sésame doré, sauce soja, miel, riz.";
+          produit.prix = 12.80;
         }else if (idProduit === 22) {
-          produit.nom = "Nom du produit 2";
-          produit.description = "Description du produit 2";
-          produit.prix = 24.99;
+          produit.nom = "Wraps aux pois chiches rôtis et à la feta";
+          produit.description = "pois chiche, oignon rouge, huile d'olice, crème de sucre, feta.";
+          produit.prix = 4.20;
         } else if (idProduit === 23) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Wraps au crabe";
+          produit.description = "tortilla, chaire de crabe, feuille de laitue, crème fraiche, mayonnaise.";
+          produit.prix = 5.50;
         } else if (idProduit === 24) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Wraps au poulet";
+          produit.description = "tortilla de blé, blanc de poulet, feuille de laitue, tomate, moutarde.";
+          produit.prix = 4.80;
         }else if (idProduit === 25) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Kebab assiette 3 viandes";
+          produit.description = "Assiette kebab 3 viandes avec frites/crudités.";
+          produit.prix = 7.50;
         }else if (idProduit === 26) {
-          produit.nom = "Nom du produit 2";
-          produit.description = "Description du produit 2";
-          produit.prix = 24.99;
+          produit.nom = "Kebab classique";
+          produit.description = "Kebab classique, crudité, sauce avec ses frites.";
+          produit.prix = 6.50;
         } else if (idProduit === 27) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Kebab Royal";
+          produit.description = "Kebab classique, plus grand avec galette de pomme de terre et supplément viande/fromages.";
+          produit.prix = 8.00;
         } else if (idProduit === 28) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Libanais classique";
+          produit.description = "Libanais classique crudité";
+          produit.prix = 3.90;
         }else if (idProduit === 29) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Libanais royal";
+          produit.description = "Libanais avec supplément fromage/lamelle de kebab + galette de pomme de terre";
+          produit.prix = 5.50;
         }else if (idProduit === 30) {
-          produit.nom = "Nom du produit 2";
-          produit.description = "Description du produit 2";
-          produit.prix = 24.99;
+          produit.nom = "Libanais vegan";
+          produit.description = "Libanais sans viande avec galette de légume et de pomme de terre, suplément fromage et crudité";
+          produit.prix = 4.50;
         } else if (idProduit === 31) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Panini Nutella";
+          produit.description = "Panini au Nutella.";
+          produit.prix = 3.20;
         } else if (idProduit === 32) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Panini 3 fromages";
+          produit.description = "Panini chèvre, bleu, ementale.";
+          produit.prix = 4.50;
         }else if (idProduit === 33) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Panini viande hachée";
+          produit.description = "Panini avec viande hachée fromage, crudité.";
+          produit.prix = 7.00;
         }else if (idProduit === 34) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Tacos au poulet curry";
+          produit.description = "Tortilla, Escalope de Poulet, Crème liquide, Fromage rapé, oignon, frites.";
+          produit.prix = 6.50;
         } else if (idProduit === 35) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Recette de tacos au bœuf haché ";
+          produit.description = "Tacos avec boeuf haché frites suplément fromage, crudité.";
+          produit.prix = 6.50;
         }else if (idProduit === 36) {
-          produit.nom = "Nom du produit 3";
-          produit.description = "Description du produit 3";
-          produit.prix = 14.99;
+          produit.nom = "Recette de tacos au bœuf haché ";
+          produit.description = "Tacos 3 viandes: poulet,boeuf,mouton,frites,crudités.";
+          produit.prix = 8.50;
         }
   
         var panier = JSON.parse(sessionStorage.getItem("panier")) || [];
