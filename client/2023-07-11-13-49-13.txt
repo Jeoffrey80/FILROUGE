@@ -1,5 +1,0 @@
-Nom: Toto
-Prénom: Tutu
-Email: totodutoto@toto.com
-Téléphone: 0655223312
-Demande: 

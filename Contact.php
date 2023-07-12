@@ -71,6 +71,7 @@
       const prenom = document.getElementById("prenom").value;
       const telephone = document.getElementById("telephone").value;
       const email = document.getElementById("email").value;
+      const question = document.getElementById("question").value;
       const regexEmail = /\S+@\S+\.\S+/;
       const regexNumero = /^\d{10}$/;
 
@@ -93,7 +94,7 @@
         alert("L'e-mail doit comporter au moins le caractère @ (obligatoire!)");
         return false;
       }
-
+      
       return true;
     }
 

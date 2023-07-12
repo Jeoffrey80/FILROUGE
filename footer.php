@@ -18,7 +18,7 @@
    </div> 
    <nav style="color: transparent;">
 
-      <div class="d-flex justify-content-end align-items-right">
+      <div class="d-flex justify-content-right align-items-center">
         <a id="arrow-up" class="me-auto ms-5 justify-content-end">
           <i class="fa-solid fa-arrow-up fa-beat fa-2xl "
             style="color: #ff7800;font-size: 50px; left:0px;"></i><!--Flêche à droite permettant de remonter en haut de la page-->
