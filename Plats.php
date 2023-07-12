@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="dist/assets/index.css">
 </head>
 <header><!--Début du header pour la partie Layout(entete) -->
-<?php include 'header.php';?>
+
     <br>
-    <hr>
+    <div class="fixed-top" style="">
+
     <nav class="text-center">
         <ul class="list-unstyled">
             <button class="btn colorbtnplat" onclick="scrollToSection('#Asiatique')">Asiatique</button>
@@ -34,9 +35,11 @@
             }
         }
     </script>
-    <hr>
+<br>
+    </div>
+    <?php include 'header.php';?>
 </header><!--Fin du header pour la partie Layout(entete) -->
-
+<hr>
 <body class="bplats" class="imgcommande">
     <section id="Asiatique">
         <h2>Plats Asiatiques</h2>

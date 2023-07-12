@@ -1,6 +1,6 @@
 
     <!--fin de la partie Script pour la flêche-->
-    <div class=" placers d-flex justify-content-center align-items-center flex-wrap" style="background-color: rgba(0, 0, 0, 0); !important; background: none !important; margin: 0; padding: 0;">
+    <div class=" placers d-flex justify-content-center align-items-center flex-wrap" style="background-color: rgba(0, 0, 0, 0); background: none !important; margin: 0; padding: 0;">
       <!--Début de la partie Réseaux Sociaux-->
       <div class="d-flex justify-content-center align-items-center flex-wrap">
       <a class="taillelogors my-5 mx-5"><i class="fa-brands fa-instagram fa-bounce"

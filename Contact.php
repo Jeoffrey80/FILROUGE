@@ -21,7 +21,7 @@
     <div class="d-flex couleur-navigation-text justify-content-center fs-5 mx-2">
       <p><i><small>* Ces zones sont obligatoires</small></i></p>
     </div>
-    <form method="post" action="formulaire.php" onsubmit="return validerFormulaire();"
+    <form method="post" action="traitform.php" onsubmit="return validerFormulaire();"
       oninvalid="alert('Veuillez entrer les champs demandés (Obligatoire!)');">
       <div class="mx-2"><b>Vos coordonées</b></div>
       <div class="mt-2">

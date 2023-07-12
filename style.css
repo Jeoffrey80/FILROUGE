@@ -1,6 +1,7 @@
 .color {
   background: #970747 !important;
 }
+
 footer.sticky-footer {
   width: 100%;
   position: fixed;
@@ -235,7 +236,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.taillelogoaccueil img:hover{
+  transform:scale(1.1);
+  transition: 1.2s;
+}
 .fond-panier{
   background-color: #970747 !important;
   background: #970747 !important;

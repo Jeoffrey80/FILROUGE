@@ -59,19 +59,18 @@
           <p>une fusion exquise de saveurs rapides et de satisfaction gourmande,
             où chaque bouchée vous transporte vers un monde de délices.</p>
         </ul>
-        <a class="taillelogoaccueil mx-5"><img src="/images_the_disctrict/burger.jpg" class="taillelogoaccueil d-block"
+        <a class="taillelogoaccueil mx-5"><img src="/images_the_disctrict/burger.jpg" class="d-block"
             alt="..." style="width:250px;height:250px;"></a>&nbsp;
-        <a class=" taillelogoaccueil mx-5"><img src="/images_the_disctrict/pizza.jpg" class="d-block taillelogoaccueil"
-            alt="..." style="width:250px;height:250px;"></a>nbsp;
+        <a class=" taillelogoaccueil mx-5"><img src="/images_the_disctrict/pizza.jpg" class="d-block"
+            alt="..." style="width:250px;height:250px;"></a>&nbsp;
       </div><!--Corps de la page avec le slogan ainsi que quelques images-->
   </div>
   
-  <footer class="sticky-footer custom-footer"><!-- Début du pied de page avec les réseaux sociaux -->
+  <footer class="footer fixed-bottom"><!-- Début du pied de page avec les réseaux sociaux -->
   <?php include 'footer.php';?>
 </footer>
 
   <script type="module" src="dist/assets/index.js"></script>
 </main>
 </body>
-
 </html>

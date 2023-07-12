@@ -1,7 +1,7 @@
 <header><!--Début du header pour la partie Layout(entete) -->
       <nav class="color navbar navbar-expand-lg bg-danger rounded custom-rounded "><!--Début de la NavBar Bootstrap-->
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img class="logo" src="/images_the_disctrict/the_district_brand/logo.png"
+          <a class="navbar-brand" href="/index.php"><img class="logo" src="/images_the_disctrict/the_district_brand/logo.png"
               alt="logo" title="logo"></a>
           <ul class="col-3 nav-link couleurtitre fs-1"><u><b>The District</b></u></ul>
           <button class="navbar-toggler col-btn" type="button" data-bs-toggle="collapse"
@@ -19,25 +19,25 @@
                 <a class="nav-link custom-heading active fs-1" href="/Categorie.php">Catégorie</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link custom-heading active fs-1" href="/Contact.html">Contact</a>
+                <a class="nav-link custom-heading active fs-1" href="/Contact.php">Contact</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle custom-heading active fs-1" href="#" role="button"
                     data-bs-toggle="dropdown" aria-expanded="false">Plats</a>
                 <ul class="dropdown-menu custom-heading" aria-labelledby="menudropdown">
-                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.html">Choix</a></li>
-                    <li><a class="dropdown-item custom-heading active fs-2" href="#">Asiatiques</a></li>
-                    <li><a class="dropdown-item custom-heading active fs-2" href="#">Burgers</a></li>
-                    <li><a class="dropdown-item custom-heading active fs-2" href="#">Pâtes</a></li>
-                    <li><a class="dropdown-item custom-heading active fs-2" href="#">Pizzas</a></li>
-                    <li><a class="dropdown-item custom-heading active fs-2" href="#">Salades</a></li>
-                    <li><a class="dropdown-item custom-heading active fs-2" href="#">Sandwichs</a></li>
-                    <li><a class="dropdown-item custom-heading active fs-2" href="#">Veggies</a></li>
-                    <li><a class="dropdown-item custom-heading active fs-2" href="#">Wraps</a></li>
-                    <li><a class="dropdown-item custom-heading active fs-2" href="#">Kebabs</a></li>
-                    <li><a class="dropdown-item custom-heading active fs-2" href="#">Libanais</a></li>
-                    <li><a class="dropdown-item custom-heading active fs-2" href="#">Paininis</a></li>
-                    <li><a class="dropdown-item custom-heading active fs-2" href="#">Tacos</a></li>
+                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php">Choix</a></li>
+                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Asiatiques">Asiatiques</a></li>
+                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Burgers">Burgers</a></li>
+                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Pâtes">Pâtes</a></li>
+                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Pizzas">Pizzas</a></li>
+                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Salades">Salades</a></li>
+                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Sandwich">Sandwichs</a></li>
+                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Veggies">Veggies</a></li>
+                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Wraps">Wraps</a></li>
+                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Kebab">Kebabs</a></li>
+                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Libanais">Libanais</a></li>
+                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Panini">Paininis</a></li>
+                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Tacos">Tacos</a></li>
                 </ul>
             </li>
         </ul>
