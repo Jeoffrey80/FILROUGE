@@ -447,7 +447,7 @@
     <script>
       function ajouterAuPanier(idProduit) {
         var produit = {
-          image:"",
+            
           nom: "",
           description: "",
           prix: 0

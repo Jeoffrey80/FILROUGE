@@ -18,12 +18,11 @@
     padding-left: 0;
   }
 </style>
+
     <div class="text-center" >
         <h1>Mon Panier</h1>
-
         <h2>Produits sélectionnés :</h2>
         <ul  id="panier-liste"></ul>
-
         <h2>Prix total :</h2>
         <p id="prix-total"></p>
         <button onclick="resetPanier()">Réinitialiser</button>
@@ -74,14 +73,15 @@
                 var pPrix = document.createElement("p");
                 pPrix.textContent = "Prix : " + produit.prix + "€";
                 div.appendChild(pPrix);
-
                 li.appendChild(div);
                 panierListe.appendChild(li);
+                
             });
 
             // Afficher le prix total
             var prixTotalElement = document.getElementById("prix-total");
             prixTotalElement.textContent = "Prix total : " + prixTotal.toFixed(2) + "€";
+            
         });
     </script>
     <br><br>
