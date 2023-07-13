@@ -103,7 +103,7 @@
         <div class="container">
             <h1><b>Formulaire de contact</b></h1>
             <p><i><small>* Ces zones sont obligatoires</small></i></p>
-            <form method="post" action="formulaire.php" onsubmit="return validerFormulaire();">
+            <form method="post" action="index.php" onsubmit="return validerFormulaire();">
                 <div class="mx-2"><b>Vos coordonnées</b></div>
                 <div class="mt-2">
                     <div class="mx-2">
