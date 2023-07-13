@@ -17,6 +17,10 @@
     list-style-type: none;
     padding-left: 0;
   }
+  #panier-liste img{
+    width:250px;
+    height: 150px;
+  }
 </style>
 
     <div class="text-center" >
@@ -71,8 +75,11 @@
                 div.appendChild(pDesc);
 
                 var pPrix = document.createElement("p");
+                
                 pPrix.textContent = "Prix : " + produit.prix + "€";
                 div.appendChild(pPrix);
+                var hr = document.createElement("hr");
+                pPrix.insertAdjacentElement("afterend", hr);
                 li.appendChild(div);
                 panierListe.appendChild(li);
                 

@@ -41,11 +41,18 @@
 </header><!--Fin du header pour la partie Layout(entete) -->
 <hr>
 <body class="bplats" class="imgcommande">
+<style>
+  .imgcommande img{
+    width:250px;
+    height: 150px;
+  }
+</style>
     <section id="Asiatique">
         <h2>Plats Asiatiques</h2>
         <ul class="ulplats">
             <li class="liplats" >
-                <img src="/images_the_disctrict/food/Plats/asiat1.jpg" class="imgcommande" alt="Image 1" style='width 150px; height: 150px;'>
+                <img src="/images_the_disctrict/food/Plats/asiat1.jpg" class="imgcommande" alt="Image 1" 
+                '>
                 <div>
                     <h3>Sushi</h3>
                     <p>Sushi au saumon 2 pièces</p>
@@ -447,153 +454,189 @@
     <script>
       function ajouterAuPanier(idProduit) {
         var produit = {
-            
+          image: "",
           nom: "",
           description: "",
           prix: 0
         };
   
         if (idProduit === 1) {
+          produit.image ="/images_the_disctrict/food/Plats/asiat1.jpg";
           produit.nom = "Sushi";
           produit.description = "Sushi au saumon 2 pièces";
           produit.prix = 4.99;
         } else if (idProduit === 2) {
+          produit.image ="/images_the_disctrict/food/Plats/asiat2.jpeg";
           produit.nom = "Maki";
           produit.description = "Maki goût variés 6 pièces";
           produit.prix = 29.99;
         } else if (idProduit === 3) {
+          produit.image ="/images_the_disctrict/food/Plats/asiat3.jpeg";
           produit.nom = "Yakitori";
           produit.description = "Brochette de boeufs avec fromage fondue à l'intérieur 3 pièces";
           produit.prix = 14.99;
         } else if (idProduit === 4) {
+          produit.image ="/images_the_disctrict/food/Plats/burger1.jpeg";
           produit.nom = "Burger fromage";
           produit.description = "Burger supplément fromage";
           produit.prix = 9.90;
         }else if (idProduit === 5) {
+          produit.image ="/images_the_disctrict/food/Plats/burger2.jpg";
           produit.nom = "Burger Poisson";
           produit.description = "Burger avec galette de poisson";
           produit.prix = 12.50;
         }else if (idProduit === 6) {
+          produit.image ="/images_the_disctrict/food/Plats/burger3.jpeg";
           produit.nom = "Anguss Noire";
           produit.description = "Burger viande anguss avec pain noire";
           produit.prix = 24.99;
         } else if (idProduit === 7) {
+          produit.image ="/images_the_disctrict/food/Plats/pates1.jpeg";
           produit.nom = "Pâtes Carbonara";
           produit.description = "Lardon fumé, crème fraîche, pâtes(tagliatelle), jaunes d'oeuf, oignon";
           produit.prix = 12.90;
         } else if (idProduit === 8) {
+          produit.image ="/images_the_disctrict/food/Plats/pates2.jpeg";
           produit.nom = "Pâtes Bolognaise";
           produit.description = "Spaghettis, Viande de boeuf hachée, tomate pelée, oignon, ail, thym, laurier, huile d'olive ";
           produit.prix = 14.99;
         }else if (idProduit === 9) {
+          produit.image ="/images_the_disctrict/food/Plats/pates3.jpeg";
           produit.nom = "Pâtes au Saumon";
           produit.description = "Pâtes type penne, zeste de citron, crème fraîche épaisse, saumon fumé haché, anette, parmesan rapé";
           produit.prix = 12.95;
         }else if (idProduit === 10) {
+          produit.image ="/images_the_disctrict/food/Plats/pizza1.jpg";
           produit.nom = "4 Fromages";
           produit.description = "Pizza chèvre, bleu, conmté, mozzarella, base tomate";
           produit.prix = 16.50;
         } else if (idProduit === 11) {
+          produit.image ="/images_the_disctrict/food/Plats/pizza2.jpg";
           produit.nom = "Bolognaise";
           produit.description = "base tomate, viande haché, gruyère rapé, oignon, huile d'olive, origan";
           produit.prix = 18.90;
         } else if (idProduit === 12) {
+          produit.image ="/images_the_disctrict/food/Plats/pizza3.jpg";
           produit.nom = "Margherita";
           produit.description = "Parmesan reggianno, huile d'olive, mozzarella, feuille de basilic frais, base tomate";
           produit.prix = 14.50;
         }else if (idProduit === 13) {
+          produit.image ="/images_the_disctrict/food/Plats/salade1.jpeg";
           produit.nom = "Salade Niçoise";
           produit.description = "Batavia, tomate, thon, anchois, poivrons vers, olive noire, oeufs..";
           produit.prix = 4.90;
         }else if (idProduit === 14) {
+          produit.image ="/images_the_disctrict/food/Plats/salade2.jpg";
           produit.nom = "Salade Mexicaine de quinoa à l'avocat";
           produit.description = "Quinoa, avocats mûrs, maïs, haricots noirs, oignon rouge, botte de coriandre, citron vert, huile d'olive, sel, poivre";
           produit.prix = 6.99;
         } else if (idProduit === 15) {
+          produit.image ="/images_the_disctrict/food/Plats/salade3.webp";
           produit.nom = "Salade healthy";
           produit.description = "Tomate/Mozzarella avec une touche d'huile d'olive";
           produit.prix = 3.50;
         } else if (idProduit === 16) {
+          produit.image ="/images_the_disctrict/food/Plats/sandwich1.png";
           produit.nom = "Thon Surimi";
           produit.description = "Thon, Surimi, crudité (salade/tomate)";
           produit.prix = 3.50;
         }else if (idProduit === 17) {
+          produit.image ="/images_the_disctrict/food/Plats/sandwich2.jpg";
           produit.nom = "Rosette";
           produit.description = "Beurre, rosette, cornichon";
           produit.prix = 3.50;
         }else if (idProduit === 18) {
+          produit.image ="/images_the_disctrict/food/Plats/sandwich3.jpeg";
           produit.nom = "Poulet Crudité";
           produit.description = "Poulet crudité (salade/tomate)";
           produit.prix = 3.50;
         } else if (idProduit === 19) {
+          produit.image ="/images_the_disctrict/food/Plats/veggie1.jpeg";
           produit.nom = "Burger Vegan";
           produit.description = "Burger avec galette de pomme de terre à la place de la viande, salade, tomate, oignon, cornichon, sauce secrète.(Accompagné de ses frites)";
           produit.prix = 8.50;
         } else if (idProduit === 20) {
+          produit.image ="/images_the_disctrict/food/Plats/veggie2.jpg";
           produit.nom = "Hot Dog Vegan";
           produit.description = "Hot dog avec une saucisse de légume";
           produit.prix = 7.50;
         }else if (idProduit === 21) {
+          produit.image ="/images_the_disctrict/food/Plats/veggie3.jpg";
           produit.nom = "Poke bowl au saumon mariné";
           produit.description = "Avocat, fève, citron vert, saumon cru, sésame doré, sauce soja, miel, riz.";
           produit.prix = 12.80;
         }else if (idProduit === 22) {
+          produit.image ="/images_the_disctrict/food/Plats/wrap1.jpeg";
           produit.nom = "Wraps aux pois chiches rôtis et à la feta";
           produit.description = "pois chiche, oignon rouge, huile d'olice, crème de sucre, feta.";
           produit.prix = 4.20;
         } else if (idProduit === 23) {
+          produit.image ="/images_the_disctrict/food/Plats/wrap2.jpeg";
           produit.nom = "Wraps au crabe";
           produit.description = "tortilla, chaire de crabe, feuille de laitue, crème fraiche, mayonnaise.";
           produit.prix = 5.50;
         } else if (idProduit === 24) {
+          produit.image ="/images_the_disctrict/food/Plats/wrap3.jpeg";
           produit.nom = "Wraps au poulet";
           produit.description = "tortilla de blé, blanc de poulet, feuille de laitue, tomate, moutarde.";
           produit.prix = 4.80;
         }else if (idProduit === 25) {
+          produit.image ="/images_the_disctrict/food/Plats/kebab1.png";
           produit.nom = "Kebab assiette 3 viandes";
           produit.description = "Assiette kebab 3 viandes avec frites/crudités.";
           produit.prix = 7.50;
         }else if (idProduit === 26) {
+          produit.image ="/images_the_disctrict/food/Plats/kebab2.jpeg";
           produit.nom = "Kebab classique";
           produit.description = "Kebab classique, crudité, sauce avec ses frites.";
           produit.prix = 6.50;
         } else if (idProduit === 27) {
+          produit.image ="/images_the_disctrict/food/Plats/kebab3.jpeg";
           produit.nom = "Kebab Royal";
           produit.description = "Kebab classique, plus grand avec galette de pomme de terre et supplément viande/fromages.";
           produit.prix = 8.00;
         } else if (idProduit === 28) {
+          produit.image ="/images_the_disctrict/food/Plats/libanais1.jpg";
           produit.nom = "Libanais classique";
           produit.description = "Libanais classique crudité";
           produit.prix = 3.90;
         }else if (idProduit === 29) {
+          produit.image ="/images_the_disctrict/food/Plats/libanais2.jpeg";
           produit.nom = "Libanais royal";
           produit.description = "Libanais avec supplément fromage/lamelle de kebab + galette de pomme de terre";
           produit.prix = 5.50;
         }else if (idProduit === 30) {
+          produit.image ="/images_the_disctrict/food/Plats/libanais3.jpeg";
           produit.nom = "Libanais vegan";
           produit.description = "Libanais sans viande avec galette de légume et de pomme de terre, suplément fromage et crudité";
           produit.prix = 4.50;
         } else if (idProduit === 31) {
+          produit.image ="/images_the_disctrict/food/Plats/panini1.jpeg";
           produit.nom = "Panini Nutella";
           produit.description = "Panini au Nutella.";
           produit.prix = 3.20;
         } else if (idProduit === 32) {
+          produit.image ="/images_the_disctrict/food/Plats/panini2.jpeg";
           produit.nom = "Panini 3 fromages";
           produit.description = "Panini chèvre, bleu, ementale.";
           produit.prix = 4.50;
         }else if (idProduit === 33) {
+          produit.image ="/images_the_disctrict/food/Plats/panini3.jpeg";
           produit.nom = "Panini viande hachée";
           produit.description = "Panini avec viande hachée fromage, crudité.";
           produit.prix = 7.00;
         }else if (idProduit === 34) {
+          produit.image ="/images_the_disctrict/food/Plats/tacos1.jpeg";
           produit.nom = "Tacos au poulet curry";
           produit.description = "Tortilla, Escalope de Poulet, Crème liquide, Fromage rapé, oignon, frites.";
           produit.prix = 6.50;
         } else if (idProduit === 35) {
+          produit.image ="/images_the_disctrict/food/Plats/tacos2.jpeg";
           produit.nom = "Recette de tacos au bœuf haché ";
           produit.description = "Tacos avec boeuf haché frites suplément fromage, crudité.";
           produit.prix = 6.50;
         }else if (idProduit === 36) {
+          produit.image ="/images_the_disctrict/food/Plats/tacos3.jpeg";
           produit.nom = "Recette de tacos au bœuf haché ";
           produit.description = "Tacos 3 viandes: poulet,boeuf,mouton,frites,crudités.";
           produit.prix = 8.50;
