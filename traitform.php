@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="36; URL=/index.php">
+    <meta http-equiv="refresh" content="5; URL=/index.php">
     <title>Formulaire envoyé</title>
+    <link rel="stylesheet" href="dist/assets/index.css">
 </head>
 <body>
-<video id="myVideo" class="d-block video" width="1200" height="600" autoplay muted controls loop>
-          <source src="/video/lorenzo.mp4" type="video/mp4">
+<header><!--Début du header pour la partie Layout(entete) -->
+        <?php include 'header.php';?>
+    </header><!--Fin du header pour la partie Layout(entete) -->
+<!--<video id="myVideo" class="d-block video" width="1200" height="600" autoplay muted controls loop>
+          <source src="/video/lorenzo.mp4" type="video/mp4">-->
  <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Récupérer les données du formulaire
@@ -36,10 +40,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     fclose($file);
 
     // Affiche un message de succès
-    echo "Le formulaire a été soumis avec succès.<br>";
-    echo 'Cliquer <a href="/index.php"> ici</a> pour retourner à la page d acceuil';
+    echo "<br><br><br><center><h1>Le formulaire a été soumis avec succès.</h1><br></center>";
+    echo "<center>Vous allez être redirectionné à la page d'acceuil ou sinon <br><center>";
+    echo '<center>Cliquer <a href="/index.php"> ici</a> pour retourner à la page d acceuil</h1></center><br>';
+    echo '<img src="images_the_disctrict/food/Plats/redirection.jpg">';
     //header('Location: index.php');
 }
 ?>   
+<footer class="footer fixed-bottom"><!-- Début du pied de page avec les réseaux sociaux -->
+  <?php include 'footer.php';?>
+</footer>
+<script type="module" src="dist/assets/index.js"></script>
 </body>
 </html>

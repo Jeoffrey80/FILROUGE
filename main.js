@@ -3,7 +3,6 @@ import 'bootstrap/dist/js/bootstrap.js';
 
 import '@fortawesome/fontawesome-free/css/brands.css';
 import '@fortawesome/fontawesome-free/css/fontawesome.css';
-import '@fortawesome/fontawesome-free/js/solid.js';
 
 import '@fortawesome/fontawesome-free/js/brands.js';
 import '@fortawesome/fontawesome-free/js/fontawesome.js';
