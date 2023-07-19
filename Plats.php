@@ -79,7 +79,7 @@ include 'header.php';
             <li class="liplats">
                 <img src="/images_the_disctrict/food/Plats/burger1.jpeg" class="imgcommande" alt="Image 1" style='width 150px; height: 150px;'>
                 <div>
-                    <h3>Burger Fromage</h3>
+                    <h3>Burger Frome</h3>
                     <p>Burger supplément fromage</p>
                     <p>Prix : 9.90€</p>
                     <button onclick="ajouterAuPanier(4)">Ajouter</button>
