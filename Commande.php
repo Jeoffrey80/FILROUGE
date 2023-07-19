@@ -1,17 +1,11 @@
-<!DOCTYPE html>
-<html lang="fr-fr">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The District: -Commande</title>
-    <link rel="stylesheet" href="dist/assets/index.css">
-</head>
-<header><!--Début du header pour la partie Layout(entete) -->
-<?php include 'header.php';?>
-</header><!--Fin du header pour la partie Layout(entete) -->
+<!--Début du header pour la partie Layout(entete) -->
+<?php 
+$title = "commande";
+include 'header.php';
+?>
+<!--Fin du header pour la partie Layout(entete) -->
 
-<body>
 <style>
   #panier-liste {
     list-style-type: none;

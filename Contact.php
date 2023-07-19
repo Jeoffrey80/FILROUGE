@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr-fr">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The District: -Contact</title>
-  <link rel="stylesheet" href="dist/assets/index.css">
-</head>
-
+<?php 
+$title = "Contact";
+include 'header.php';
+?>
 <body>
-  <header><!--Début du header pour la partie Layout(entete) -->
-    <?php include 'header.php';?>
-  </header><!--Fin du header pour la partie Layout(entete) -->
   <br><br>
   <div class="d-flex flex-column justify-content-center align-items-center couleur-navigation-text text-center">
     <!--Formulaire de contact-->

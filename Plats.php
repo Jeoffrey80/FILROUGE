@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr-fr">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The District: -Listes des plats</title>
-    <link rel="stylesheet" href="dist/assets/index.css">
-</head>
-<header><!--Début du header pour la partie Layout(entete) -->
-
+<?php 
+$title = "Plats";
+include 'header.php';
+?>
     <br>
     <div class="fixed-top" style="">
 
@@ -37,7 +30,6 @@
     </script>
 <br>
     </div>
-    <?php include 'header.php';?>
 </header><!--Fin du header pour la partie Layout(entete) -->
 <hr>
 <body class="bplats" class="imgcommande">

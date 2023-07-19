@@ -27,12 +27,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Inscription</title>
-</head>
-<body>
+<?php 
+$title = "Inscription";
+include 'header.php';
+?>
+
     <h1>Inscription</h1>
     <?php if (isset($messageErreur)) { ?>
         <p><?php echo $messageErreur; ?></p>

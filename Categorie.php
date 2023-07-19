@@ -1,17 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr-fr">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The District: -Catégorie</title>
-  <link rel="stylesheet" href="dist/assets/index.css">
-</head>
-<lol></lol>
-<body>
-  <header><!--Début du header pour la partie Layout(entete) -->
-    <?php include('header.php');?>
-  </header><!--Fin du header pour la partie Layout(entete) -->
+<?php 
+$title = "Catégorie";
+include 'header.php';
+?>
   <br>
   <div class="d-flex justify-content-center couleur-navigation">
     <!--Début de la partie affichage des catégorie Image+Titre-->
@@ -97,7 +87,7 @@
         </a>
         </div>
         <div class="img-cat col-md-4 mb-4">
-        <a href="/Plats.php#Paninis">
+        <a href="/Plats.php#Panini">
           <img src="/images_the_disctrict/category/Panini.jpeg" class="d-block" alt="..."
             style="width:250px;height:250px;">
           <h4 class="couleurslogan">Paninis</h4>

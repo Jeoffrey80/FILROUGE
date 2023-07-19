@@ -1,4 +1,6 @@
 <?php
+$title = "connexion";
+include 'header.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $motDePasse = $_POST["mot_de_passe"];

@@ -1,3 +1,15 @@
+<!doctype html>
+<html lang="fr-fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The District: <?= $title ?></title>
+    <link rel="stylesheet" href="dist/assets/index.css">
+    <link rel="shortcut icon" href="images_the_disctrict/the_district_brand/favicon.png" />
+</head>
+
+<body>
 <header><!--Début du header pour la partie Layout(entete) -->
       <nav class="color navbar navbar-expand-lg bg-danger rounded custom-rounded "><!--Début de la NavBar Bootstrap-->
         <div class="container-fluid">
