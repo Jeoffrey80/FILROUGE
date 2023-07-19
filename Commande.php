@@ -1,9 +1,6 @@
 
 <!--Début du header pour la partie Layout(entete) -->
-<?php 
-$title = "commande";
-include 'header.php';
-?>
+<?php $title = "commande";include 'header.php';?>
 <!--Fin du header pour la partie Layout(entete) -->
 
 <style>

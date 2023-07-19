@@ -1,7 +1,4 @@
-<?php 
-$title = "Plats";
-include 'header.php';
-?>
+<?php $title = "Plats";include 'header.php';?>
     <br>
     <div class="fixed-top" style="">
 
