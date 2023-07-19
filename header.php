@@ -15,7 +15,7 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="/index.php"><img class="logo" src="/images_the_disctrict/the_district_brand/logo.png"
               alt="logo" title="logo"></a>
-          <ul class="col-3 nav-link couleurtitre fs-1"><u><b>The District</b></u></ul>
+          <ul class="col-3 nav-link couleurtitre fs-1"><u><b><a href="/index.php" style="color:white;"> The District</a></b></u></ul>
           <button class="navbar-toggler col-btn" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -38,8 +38,8 @@
                     data-bs-toggle="dropdown" aria-expanded="false">Plats</a>
                 <ul class="dropdown-menu custom-heading" aria-labelledby="menudropdown">
                     <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php">Choix</a></li>
-                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Asiatiques">Asiatiques</a></li>
-                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Burgers">Burgers</a></li>
+                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Asiatique">Asiatiques</a></li>
+                    <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Burger">Burgers</a></li>
                     <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Pâtes">Pâtes</a></li>
                     <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Pizzas">Pizzas</a></li>
                     <li><a class="dropdown-item custom-heading active fs-2" href="/Plats.php#Salades">Salades</a></li>

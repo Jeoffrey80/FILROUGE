@@ -7,8 +7,8 @@ include 'header.php';
 
     <nav class="text-center">
         <ul class="list-unstyled">
-            <button class="btn colorbtnplat" onclick="scrollToSection('#Asiatique')">Asiatique</button>
-            <button class="btn colorbtnplat" onclick="scrollToSection('#Burger')">Burger</button>
+            <button class="btn colorbtnplat" onclick="scrollToSection('#Asiatique')">Asiatiques</button>
+            <button class="btn colorbtnplat" onclick="scrollToSection('#Burger')">Burgers</button>
             <button class="btn colorbtnplat" onclick="scrollToSection('#Pâtes')">Pâtes</button>
             <button class="btn colorbtnplat" onclick="scrollToSection('#Pizzas')">Pizzas</button>
             <button class="btn colorbtnplat" onclick="scrollToSection('#Salades')">Salades</button>
@@ -88,7 +88,7 @@ include 'header.php';
             <li class="liplats">
                 <img src="/images_the_disctrict/food/Plats/burger2.jpg" class="imgcommande" alt="Image 2" style='width 150px; height: 150px;'>
                 <div>
-                    <h3>Buger Poisson</h3>
+                    <h3>Burger Poisson</h3>
                     <p>Burger avec galette de poisson</p>
                     <p>Prix : 12.50€</p>
                     <button onclick="ajouterAuPanier(5)">Ajouter</button>
