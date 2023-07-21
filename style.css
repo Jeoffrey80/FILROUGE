@@ -239,7 +239,7 @@ body {
 .taillelogoaccueil img:hover{
   width: 350px;
   height: 350px;
-  transform:scale(1.1);
+  transform:scale(1.2);
   transition: 1.2s;
 }
 .fond-panier{
