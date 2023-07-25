@@ -132,7 +132,7 @@ include 'header.php';
       showLessBtn.classList.add('d-none');
     });
   </script>
-  <!--Partie Script en Java Script permettant d'afficher plus ou moins selon la demande l'utilisateur lors du clique sur les boutons-->
+  <!--Partie Script ennn Java Script permettant d'afficher plus ou moins selon la demande l'utilisateur lors du clique sur les boutons-->
   </div>
   </div>
 </body>
