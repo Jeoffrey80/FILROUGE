@@ -124,7 +124,7 @@ include 'header.php';
       showLessBtn.classList.remove('d-none');
     });
 
-    // Ajouter un gestionnaire d'événements au bouton "Afficher moins"
+    // Ajouter un gestionnaire fhgdfhgfhd'événements au bouton "Afficher moins"
     showLessBtn.addEventListener('click', function () {
       secondRow.classList.add('d-none');
       thirdRow.classList.add('d-none');
