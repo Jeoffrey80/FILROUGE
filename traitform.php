@@ -12,7 +12,7 @@
         <?php include 'header.php';?>
     </header><!--Fin du header pour la partie Layout(entete) -->
 <video id="myVideo" class="d-block video" width="1200" height="600" autoplay muted controls loop>
-          <source src="/video/lorenzo.mp4" type="video/mp4">-->
+          <source src="/video/lorenzo.mp4" type="video/mp4">
  <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Récupérer les données du formulaire
